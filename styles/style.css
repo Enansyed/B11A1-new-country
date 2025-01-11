@@ -25,14 +25,14 @@
     padding: 80px 40px 80px 0px;
 }
 .banner-starting{
-    font-weight: 400;
+    font-weight: medium;
     font-size: 24px;
-    opacity: 100%;
+    opacity: 50%;
     color: #0E0E0E;
 }
 .banner-title{
-    font-weight: 800px;
-    font-size: 60px;
+    font-weight: bold;
+    font-size: 56px;
     opacity: 100%;
     color: #0E0E0E;     
 }
@@ -153,4 +153,37 @@
         color: #FFFFFF;
         border: none;
         margin-top: 28px;
+    }
+    /* Younus-section styles */
+    .Younus-section{
+        background-image: url('../assets/quote-bg.png');
+        background-repeat: no-repeat;
+        background-position-x: left;
+        border-radius: 16px;
+        margin-top: 32px;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    .younus-description{
+         font-weight: 400px;
+         font-size: 16px;
+         color: #0E0E0E;
+         opacity: 80%;
+         padding-top: 38px;
+         padding-right: 25px;
+    }
+    .younus-title{
+        font-weight: 600px;
+        font-size: 20px;
+        color: #0E0E0E;
+        opacity: 80%;
+        margin: 1px;
+    }
+    .younus-subtitle{
+        font-weight: 200px;
+        font-size: 16px;
+        color: #0E0E0E;
+        opacity: 60%;
+        margin: 3px;
     }
